@@ -2,7 +2,7 @@
 body{
     width: 100vw;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 24px
+    font-size: 16px
 }
 
 
@@ -10,6 +10,10 @@ body{
     background-image: url("https://concepto.de/wp-content/uploads/2018/08/monta%C3%B1as-e1533762816593.jpg");
     width: 100vw;
     height: 60vh;
+}
+
+#introduction{
+    font-size:24px
 }
 
   header h1{
@@ -22,10 +26,14 @@ body{
 }
 
 p, hr, ul, ol{
+    width: 60%;
     padding: 2px 20%;
     margin: auto, 10px
 }
     
+hr{
+    width: 30vw;
+}
 
   h1 {
     text-align: center;
@@ -33,7 +41,7 @@ p, hr, ul, ol{
   }
 
   h2{
-    padding: 2px 15%
+    padding: 2px 17%
   }
 
   .img-format{
